@@ -59,11 +59,12 @@
     z-index: 1000;
     box-shadow: 0 2px 50px rgba(0,0,0,0.9);
 }
-
-  .header-logo{
+header img {
+    max-width: 100%;
     max-height:120px;
-    width:auto;
-  }
+    height: auto;
+    display: block;
+}
   /*Page Text */
   h1, h2, h3, h4, h5, label, button, div, input {
     font-family: 'Trebuchet MS', sans-serif;
