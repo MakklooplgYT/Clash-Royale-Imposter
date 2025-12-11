@@ -1,6 +1,7 @@
 body {
     height: 100%;
-    background-image: url('https://images.pexels.com/photos/1252890/pexels-photo-1252890.jpeg?cs=srgb&dl=pexels-krisof-1252890.jpg&fm=jpg') !important;
+    background-image: url('https://wallpapers.com/images/hd/majestic-starlit-sky-ct042g29ci9cfxqj.webp') !important;
+    background-size: cover !important;
     background: #364252;
     display: flex;
     flex-direction: column;
@@ -15,7 +16,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(135deg,#364252 0%,#4A4A4A 50%,#364252 100%);
+  background: linear-gradient(135deg, rgba(54, 66, 82, 0.4) 0%, rgba(74, 74, 74, 0.4) 50%, rgba(54, 66, 82, 0.4) 100%);
   border:2px solid black;
   border-radius: 20px;
   padding-top: 10vh;
