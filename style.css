@@ -1,3 +1,10 @@
+html{
+  font-size: 2em;
+}
+html, body {
+  margin: 0px;
+  padding: 0px;
+}
 body {
     height: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('https://cdnb.artstation.com/p/assets/images/images/085/149/519/4k/adelia-koldarova-crl-101-0010-060-bg-paint.jpg?1740074459') !important;
@@ -39,14 +46,11 @@ header {
       align-items: center;
       justify-content: center;
       z-index: 1000;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 50px rgba(0,0,0,0.9);
 }
 h1, h2, h3, h4, h5, label, button, div, input {
   font-family: 'Trebuchet MS', sans-serif;
   color:white;
-}
-html{
-  font-size: 2em;
 }
 button, input{
   font-size:0.6em;
