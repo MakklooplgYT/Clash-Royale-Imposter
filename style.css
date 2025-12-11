@@ -48,7 +48,8 @@ header {
       top: 0;
       width: 100%;
       height: 150px;
-      padding:10px;
+      padding-top:10px;
+      padding-bottom:10px;
       background: linear-gradient(135deg, rgba(54, 66, 82, 1) 0%, rgba(74, 74, 74, 0.8) 50%, rgba(54, 66, 82, 0.9) 100%);
       color: white;
       display: flex;
