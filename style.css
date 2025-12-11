@@ -93,6 +93,35 @@ header img {
   }
   button:hover{
     box-shadow: 0 0 1.2em rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+  }
+.num-input-wrapper {
+      position: relative;
+      display: inline-block;
+      width: 120px;
+  }
+  .num-input-wrapper input {
+      width: 100%;
+      padding-left: 10px;
+      height: 35px;
+  }
+  .num-btns {
+      position: absolute;
+      right: -20px;
+      top: 0;
+      display: flex;
+      gap: auto;
+      height: 100%;
+      align-items: center;
+  }
+  .num-btns button {
+      width: 35px;
+      height: 35px;
+      font-size: 16px;
+      cursor: pointer;
+      background: rgba(0, 0, 0, 0);
+      border: 2px solid white;
+      border-radius: 10px;
   }
 /* Responsive CSS */
 @media only screen and (max-width: 700px) {
