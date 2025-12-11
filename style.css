@@ -8,18 +8,19 @@
     margin: 0px;
     padding: 0px;
   }
-  body {
-      height: calc(100vh - 150px);
-      background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('https://cdnb.artstation.com/p/assets/images/images/085/149/519/4k/adelia-koldarova-crl-101-0010-060-bg-paint.jpg?1740074459') !important;
-      background-size:cover;
-      background-position: center center !important;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-  }
+ body {
+  height: calc(100vh - 150px);
+  background-image:
+    linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('https://cdnb.artstation.com/p/assets/images/images/085/149/519/4k/adelia-koldarova-crl-101-0010-060-bg-paint.jpg?1740074459');
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, cover;
+  background-position: center center, center center;
+  background-attachment: fixed, fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
   /* content box */
   .main-box {
     min-height: 60vh;
