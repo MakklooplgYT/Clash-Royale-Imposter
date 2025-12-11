@@ -9,7 +9,7 @@
     padding: 0px;
   }
   body {
-      height: 100%;
+      height: calc(100vh - 150px);
       background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('https://cdnb.artstation.com/p/assets/images/images/085/149/519/4k/adelia-koldarova-crl-101-0010-060-bg-paint.jpg?1740074459') !important;
       background-size:cover;
       background-position: center center !important;
@@ -22,7 +22,6 @@
   }
   /* content box */
   .main-box {
-    height:auto;
     min-height: 60vh;
     width:80%;
     max-width:800px;
@@ -41,7 +40,7 @@
     margin-left:20px;
     margin-right:20px;
     margin-bottom:30px;
-    margin-top:30px;
+    margin-top:250px;
     box-shadow: 0 0 2em rgba(115, 123, 139, 0.4);
   }
   /* Header */
@@ -50,6 +49,7 @@
         top: 0;
         width: 100%;
         height: 150px;
+        max-height:150px;
         padding-top:10px;
         padding-bottom:10px;
         background: linear-gradient(135deg, rgba(54, 66, 82, 1) 0%, rgba(74, 74, 74, 0.8) 50%, rgba(54, 66, 82, 0.9) 100%);
@@ -61,7 +61,7 @@
         box-shadow: 0 2px 50px rgba(0,0,0,0.9);
   }
   .header-logo{
-    height:120px;
+    max-height:120px;
     width:auto;
   }
   /*Page Text */
