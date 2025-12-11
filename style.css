@@ -1,23 +1,28 @@
 body {
-    height: 100vh;
-    background: linear-gradient(135deg,#364252 0%,#4A4A4A 50%,#364252 100% );
+    height: 100%;
+    background-image: url('https://images.pexels.com/photos/1252890/pexels-photo-1252890.jpeg?cs=srgb&dl=pexels-krisof-1252890.jpg&fm=jpg') !important;
+    background: #364252;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .main-box {
+  height:80%;
+  width:80%;
+  max-width:800px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgba(85, 85, 85, 0.3);
+  background: linear-gradient(135deg,#364252 0%,#4A4A4A 50%,#364252 100%);
   border:2px solid black;
   border-radius: 20px;
   padding-top: 10vh;
   padding-bottom: 10vh;
   padding-right: 2vw;
   padding-left: 2vw;
+  margin:20px;
   box-shadow: 0 0 2em rgba(115, 123, 139, 0.4);
 }
 input, button{
