@@ -2,8 +2,9 @@ body {
     height: 100vh;
     margin: 0;
     background: linear-gradient(
-        135deg, 
-        #364252 0%, 
-        #4A4A4A 100%
+        135deg,
+        #364252 0%,  
+        #4A4A4A 50%, 
+        #364252 100% 
     );
 }
