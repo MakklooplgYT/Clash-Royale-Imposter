@@ -1,8 +1,10 @@
 body {
     height: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('https://wallpapers.com/images/hd/majestic-starlit-sky-ct042g29ci9cfxqj.webp') !important;
-    background-size: cover !important;
+    background-size:cover;
     background-position: center center !important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     justify-content: center;
