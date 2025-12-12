@@ -1,6 +1,6 @@
   /* main */
   html{
-    font-size: 2em;
+    font-size: 32px;
     max-height:100%;
     max-width:100%;
     overflow-x: hidden;
@@ -126,7 +126,7 @@ header .header-discord {
 /* Mobile adjustments */
 @media only screen and (max-width: 768px) {
   html{
-    font-size: 1.2em;
+    font-size: 19.5px;
   }
   .main-box {
     margin-bottom: 150px; 
@@ -135,5 +135,8 @@ header .header-discord {
   }
   header {
     gap:4vw;
-}
+  }
+  #generateBtn, #nextBtn{
+    font-size:19.5px !important;
+  }
 }
