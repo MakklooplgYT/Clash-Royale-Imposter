@@ -81,10 +81,6 @@ header .header-discord, header .header-github {
   input{
     box-shadow: 0 0 0.8em rgba(255, 255, 255, 0.3);
   }
-  button:hover{
-    box-shadow: 0 0 1.2em rgba(255, 255, 255, 0.6);
-    cursor: pointer;
-  }
 #generateBtn{
   margin: 0px 20px 20px 20px;
 }
@@ -93,6 +89,20 @@ header .header-discord, header .header-github {
   }
 .num-input-wrapper {
   margin-bottom:10px;
+}
+/* Button Hovers */
+button:hover{
+    box-shadow: 0 0 1.2em rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+  }
+.header-github:hover{
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.6));
+}
+.header-logo:hover{
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.2));
+}
+.header-discord:hover{
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.5));
 }
  /* Remove Input Arrows */
   input[type="number"]::-webkit-outer-spin-button,
