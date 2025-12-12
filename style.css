@@ -69,15 +69,6 @@ header .header-discord, header .header-github {
     font-family: 'Trebuchet MS', sans-serif;
     color:white;
   }
-  /* Remove Input Arrows */
-  input[type="number"]::-webkit-outer-spin-button,
-  input[type="number"]::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-  }
-  input[type="number"] {
-    -moz-appearance: textfield;
-  }
   /* Button and Input */
   button, input{
     font-size:0.8em;
@@ -94,6 +85,25 @@ header .header-discord, header .header-github {
     box-shadow: 0 0 1.2em rgba(255, 255, 255, 0.6);
     cursor: pointer;
   }
+#generateBtn{
+  margin: 0px 20px 20px 20px;
+}
+#nextBtn{
+    margin:20px;
+  }
+.num-input-wrapper {
+  margin-bottom:10px;
+}
+ /* Remove Input Arrows */
+  input[type="number"]::-webkit-outer-spin-button,
+  input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+/* Input Arrows*/
 .num-input-wrapper {
       position: relative;
       display: inline-block;
